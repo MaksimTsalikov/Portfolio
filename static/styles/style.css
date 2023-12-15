@@ -1,11 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    }
+}
+
 span {
     font-style: italic;
-    }
-/* Контент */
+}
+
 .list-conteiner {
     display: inline-block;
     border-style: solid ;
@@ -18,7 +19,6 @@ span {
     text-align: center;
     font-weight: bold;
 }
-
 
 .img-conteiner {
 float: right;
@@ -42,8 +42,6 @@ margin-left: 10px;
     width: 70px;
 }
 
-/* Верхняя нав. панель */
-
 .nav-conteiner {
     display: flex;
     justify-content: space-between;
@@ -57,6 +55,7 @@ margin-left: 10px;
     padding: 0;
     align-items: center;
 }
+
 .nav-conteiner>nav>ul>li>a {
     display: block;
     padding: 10px;
